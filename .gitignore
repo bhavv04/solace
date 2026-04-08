@@ -1,0 +1,21 @@
+# environment
+.env
+venv/
+
+# data (too large for git)
+data/
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+
+# outputs
+outputs/
+
+# jupyter
+.ipynb_checkpoints/
+
+# os
+.DS_Store
+Thumbs.db

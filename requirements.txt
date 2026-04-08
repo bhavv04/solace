@@ -1,0 +1,30 @@
+# data acquisition
+earthaccess>=0.9.0
+requests>=2.31.0
+
+# raster processing
+rasterio>=1.3.0
+numpy>=1.26.0
+pyproj>=3.6.0
+shapely>=2.0.0
+
+# vector + zonal stats
+geopandas>=0.14.0
+rasterstats>=0.19.0
+fiona>=1.9.0
+
+# modeling
+scikit-learn>=1.4.0
+statsmodels>=0.14.0
+pandas>=2.1.0
+
+# visualization
+plotly>=5.18.0
+dash>=2.14.0
+dash-bootstrap-components>=1.5.0
+folium>=0.15.0
+
+# utilities
+python-dotenv>=1.0.0
+tqdm>=4.66.0
+jupyterlab>=4.0.0
