@@ -19,8 +19,8 @@ BOUNDARY_PATH = Path("data/raw/boundaries/toronto_neighbourhoods.geojson")
 LANDCOVER_PATH = Path("data/raw/landcover/toronto_landcover.tif")
 
 # NLCD class codes relevant to Toronto analysis
-TREE_CANOPY_CLASSES = [41, 42, 43]   # deciduous, evergreen, mixed forest
-IMPERVIOUS_CLASSES  = [21, 22, 23, 24]  # developed land classes
+TREE_CANOPY_CLASSES = [10]
+IMPERVIOUS_CLASSES  = [50]
 
 
 def compute_lst_stats(neighbourhoods: gpd.GeoDataFrame) -> pd.DataFrame:
