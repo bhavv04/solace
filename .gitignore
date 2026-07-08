@@ -1,0 +1,28 @@
+# Rust
+sim/target/
+Cargo.lock
+
+# Python
+pipeline/__pycache__/
+pipeline/**/__pycache__/
+validation/__pycache__/
+viz/__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (large / regenerable — never commit)
+data/raw/
+data/processed/
+data/reference/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.swp
